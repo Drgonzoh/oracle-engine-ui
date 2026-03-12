@@ -1,5 +1,13 @@
 {
   "projects": {
     "default": "oracle-engine-7dfa6"
+  },
+  "targets": {
+    "oracle-engine-7dfa6": {
+      "hosting": {
+        "app": ["oracle-engine-7dfa6"],
+        "www": ["oracle-engine-www"]
+      }
+    }
   }
 }
